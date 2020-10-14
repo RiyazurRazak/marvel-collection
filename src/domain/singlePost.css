@@ -1,0 +1,36 @@
+.singlepost__hero_container{
+    position: relative;
+}
+.singlepost__hero_image{
+    width: 100%;
+    height: 600px;
+   object-fit: fill;
+}
+.singlepost__hero_title{
+    position: absolute;
+    top: 25%;
+    left:5%;
+    background-color: #d3d1d173;
+}
+.singlepost_title{
+    color: #E70912;
+    padding: 20px;
+}
+.single__post_desc{
+    color: #ffffff;
+    width: 50%;
+    padding: 20px;
+    overflow-wrap: break-word;
+    line-height: 3;
+    text-align: justify;
+}
+.skeleton{
+    background-color: #2C2C2C !important;
+}
+@media only screen and (max-width :650px){
+
+    .single__post_desc{
+        width: 80%;
+    }
+
+}

@@ -1,0 +1,7 @@
+.footer__attribution_text , .footer__developer_text{
+    color: #E70912;
+    text-align: center;
+}
+.footer__skeleton{
+    margin: 10px auto !important;
+}
